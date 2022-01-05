@@ -60,17 +60,40 @@ p{
 
 
 .mission-section{
-    
+    margin-bottom: 150px;
 }
 
 .mission-heading{
+    text-align: center;
+}
+.all-mission-card{
     display: flex;
+    align-items: center;
+
 }
 
 .mission-card{
-    width: 30%;
+    width: 25%;
+    padding: 20px;
+    height: 350px;
+    margin: 60px;
+    border-radius: 20px;
+
 }
 
 .ils-image{
-    width: 50%;
+    width: 40%;
+}
+
+.first-miss-card{
+    float: left;
+    background-color: #edf5f7;
+}
+.second-miss-card{
+    margin: 0 auto;
+    background-color: #ffeeee;
+}
+.third-miss-card{
+    float: right;
+    background-color: #fff4d6;
 }
