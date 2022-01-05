@@ -1,0 +1,76 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 55px;
+}
+p{
+    font-weight: bold;
+}
+.color-blue{
+    color: red;
+}
+.top-section{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+}
+
+.half-width img{
+    width: 60%;
+    align-items: center;
+    margin-left: 111px;
+    margin-top: -63px;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color:#4a77da;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.first-link-div{
+    margin-top: 40px;
+}
+
+.header-text-style{
+    border-left: 5px solid;
+    border-color: tomato;
+    border-image-slice: 1;
+    padding-left: 10px;
+
+}
+
+.top-extra-text{
+    margin-top: 50px;
+}
+
+/* mission section start here  */
+
+
+.mission-section{
+    
+}
+
+.mission-heading{
+    display: flex;
+}
+
+.mission-card{
+    width: 30%;
+}
+
+.ils-image{
+    width: 50%;
+}
