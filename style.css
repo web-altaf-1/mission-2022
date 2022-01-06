@@ -16,12 +16,8 @@ h1{
 
 
 .appliation-details h2{
-    font-size: 3rem;
     font-family: sans-serif;
-}
-
-.color-1{
-
+    font-size: 3rem;
 }
 
 .color-2{
@@ -37,11 +33,9 @@ h1{
 
 .top-section{
     display: flex;
-    margin-bottom: 100px;
     width: 1250px;
     margin: auto;
 }
-
 
 .half-width{
     width: 50%;
@@ -71,7 +65,6 @@ h1{
     font-weight: bold;
     border-radius: 5px;
 }
-
 
 .first-link-div{
     margin-top: 40px;
@@ -127,9 +120,13 @@ h1{
     padding: 5px;
 }
 
+/* illustration image  */
+
 .ils-image{
     width: 40%;
 }
+
+/* illustration image  */
 
 .first-miss-card{
     float: left;
@@ -146,8 +143,10 @@ h1{
 
 /* mission section ends from here  */
 
-/* developer starts here  */
 
+
+
+/* developer starts here  */
 
 
 .developer-section{
@@ -162,8 +161,6 @@ h1{
     width: 80%;
     margin-top: 45px;
 }
-
-
 
 .dev-heading{
     font-weight:bold ;
@@ -189,7 +186,6 @@ h1{
     width: 50%;
     padding-left: 2%;
     margin-left: -20px;
-
 }
 
 .second-link{
@@ -246,6 +242,7 @@ h1{
     padding-bottom: 3rem;
 }
 
+/* community section ends from here  */
 
 
 /* application section start from here  */
