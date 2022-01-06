@@ -1,16 +1,38 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
 h1{
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
-p{
-    font-weight: bold;
-    
+.application-h2{
+    font-size: 3.3rem;
+    font-family: sans-serif;
 }
+
+.color-1{
+
+}
+
+.color-2{
+    color: #1a53da;
+}
+
+.header-text{
+    text-align: justify;
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
+}
+
 .color-blue{
     color: red;
 }
@@ -32,18 +54,22 @@ p{
     width: 60%;
     align-items: center;
     margin-left: 111px;
-    margin-top: -63px;
+    margin-top: 10px;
 }
 
 .link-button{
     text-decoration: none;
     padding: 12px 30px;
-    background-color:#4a77da;
+    background-image: linear-gradient(90deg, #5fcf30 25%, #5984ff 72%);
     color: white;
     font-weight: bold;
     border-radius: 5px;
 }
 
+.link-button:hover{
+    background-image: linear-gradient(90deg, #ff8e6b 25%, #e18ef6 72%);
+    color: black;
+}
 
 .first-link-div{
     margin-top: 40px;
@@ -85,11 +111,16 @@ p{
 
 .mission-card{
     width: 25%;
-    padding: 20px;
-    height: 350px;
+    padding: 30px;
+    height: 400px;
     margin: 30px;
     border-radius: 20px;
+    box-shadow: 3px 3px 32px black;
 
+}
+
+.mission-card p{
+    padding: 5px;
 }
 
 .ils-image{
@@ -98,15 +129,15 @@ p{
 
 .first-miss-card{
     float: left;
-    background-color: #edf5f7;
+    background-image: linear-gradient(rgb(158, 247, 185),pink);
 }
 .second-miss-card{
     margin: 0 auto;
-    background-color: #ffeeee;
+    background-image: linear-gradient(rgb(158, 197, 247),rgb(190, 255, 160));
 }
 .third-miss-card{
     float: right;
-    background-color: #fff4d6;
+    background-image: linear-gradient(rgb(217, 255, 134),rgb(192, 217, 255));
 }
 
 
@@ -118,10 +149,7 @@ p{
 
 .developer-section{
     display: flex;
-    margin-top: 150px;
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+    margin-top: 100px;
 }
 
 
@@ -134,13 +162,23 @@ p{
 
 .dev-heading{
     font-weight:bold ;
+    text-shadow: 0.1rem 0 0.4rem #797777;
+    font-family: sans-serif;
+}
+
+.dev-text{
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
 }
 
 
 .dev-left{
     width: 35%;
     padding-left: 5%;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 .dev-right{
@@ -169,7 +207,7 @@ p{
     width: 50%;
     float: left;
     padding: 40px;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 0px 46px;
 
 }
 .com-right{
@@ -187,5 +225,69 @@ p{
     margin-right: 57px;
 }
 
+.com-heading{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0.1rem 0 0.4rem #797777;
+}
+
+.com-text{
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+}
 
 
+
+/* application section start from here  */
+
+
+.application-section{
+    margin-bottom: 180px;
+}
+
+.application-heading{
+    text-align: center;
+}
+
+.application-container{
+    display: flex;
+}
+
+.application-img{
+    width: 41%;
+    background-image: url(images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 50px;
+    margin-left: 36px;
+
+}
+
+.application-img img{
+    width: 85%;
+    border: 4px solid white;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.appliation-details{
+    width: 50%;
+    float: right;
+    margin: 6rem;
+}
+
+.application-para{
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    margin-bottom: 0rem;
+}
+
+.app-button{
+    margin-top: 30px;
+}
