@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 55px;
@@ -109,6 +110,8 @@ p{
 }
 
 
+/* developer starts here  */
+
 .dev-image{
     width: 67%;
 }
@@ -124,6 +127,7 @@ p{
 
 .dev-image{
     width: 80%;
+    margin-top: 45px;
 }
 
 
@@ -145,3 +149,43 @@ p{
     margin-left: -20px;
 
 }
+
+.second-link{
+    margin-top: 35px;
+}
+
+
+/* community starts here  */
+
+.com-section{
+    display: flex;
+    width: 1250px;
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+.com-left{
+    width: 50%;
+    float: left;
+    padding: 40px;
+    margin: 0px 40px 0px 40px;
+
+}
+.com-right{
+    width: 485px;
+    float: left;
+    padding-left: 5%;
+    margin: 0px -47px 0px 9px;
+
+}
+
+.com-image{
+    width: 90%;
+    margin-top: 45px;
+    float: right;
+    margin-right: 57px;
+}
+
+
+
