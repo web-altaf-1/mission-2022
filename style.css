@@ -69,6 +69,8 @@ p{
 .all-mission-card{
     display: flex;
     align-items: center;
+    width: 1128px;
+    margin: auto;
 
 }
 
@@ -76,7 +78,7 @@ p{
     width: 25%;
     padding: 20px;
     height: 350px;
-    margin: 60px;
+    margin: 30px;
     border-radius: 20px;
 
 }
