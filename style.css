@@ -3,17 +3,21 @@ body{
 }
 h1{
     font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 p{
     font-weight: bold;
+    
 }
 .color-blue{
     color: red;
 }
 .top-section{
     display: flex;
-    margin-top: 40px;
     margin-bottom: 100px;
+    width: 1250px;
+    margin: auto;
 }
 
 
@@ -23,7 +27,7 @@ p{
     float: left;
 }
 
-.half-width img{
+.top-image{
     width: 60%;
     align-items: center;
     margin-left: 111px;
@@ -60,7 +64,11 @@ p{
 
 
 .mission-section{
-    margin-bottom: 150px;
+    margin-bottom: 200px;
+    width: 1250px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .mission-heading{
@@ -69,7 +77,7 @@ p{
 .all-mission-card{
     display: flex;
     align-items: center;
-    width: 1128px;
+    width: 1190px;
     margin: auto;
 
 }
@@ -98,4 +106,42 @@ p{
 .third-miss-card{
     float: right;
     background-color: #fff4d6;
+}
+
+
+.dev-image{
+    width: 67%;
+}
+
+.developer-section{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.dev-image{
+    width: 80%;
+}
+
+
+
+.dev-heading{
+    font-weight:bold ;
+}
+
+
+.dev-left{
+    width: 35%;
+    padding-left: 5%;
+    margin-left: 40px;
+}
+
+.dev-right{
+    width: 50%;
+    padding-left: 2%;
+    margin-left: -20px;
+
 }
